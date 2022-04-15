@@ -19,8 +19,3 @@ similarButton.addEventListener('click', function (e) {
   similarModal.classList.toggle('active');
 })
 
-if ($verify) {
-  header('Location:'.$succes_url);
-  echo '<h1 style="color:green;">Поздравляем!Ваш заказ принят!</h1>';
-  exit;
-}
